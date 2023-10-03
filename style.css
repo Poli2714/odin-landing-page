@@ -164,3 +164,8 @@ blockquote footer {
 .cta-btn {
   border: 2px solid white;
 }
+
+.footer {
+  padding: 2.5rem 0;
+  text-align: center;
+}
