@@ -74,7 +74,8 @@ body {
   border-radius: 5px;
   border-style: none;
   color: inherit;
-  padding: 0.3rem 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1.8rem;
 }
 
 .hero-img {
@@ -139,4 +140,27 @@ blockquote footer {
   align-self: flex-end;
   font-style: normal;
   font-weight: 700;
+}
+
+.call-to-action {
+  padding: 8rem 0;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #e5e7eb;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: auto;
+  max-width: 1000px;
+  padding: 3rem 7rem;
+}
+
+.cta-btn {
+  border: 2px solid white;
 }
